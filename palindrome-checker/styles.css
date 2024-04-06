@@ -1,0 +1,59 @@
+body {
+    background-color: #429e9d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    
+  }
+  
+  #description {
+    padding-top: 20px;
+    font-style: italic;
+    color: white;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+  } 
+  
+  #bold {
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  #box {
+    color: #429e9d;
+    padding-top: 10px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #text-input {
+    border: none;
+    border-bottom: 2px solid #429e9d;
+    color: #429e9d;
+  }
+  
+  #text-input:focus {
+    outline: none;
+  }
+  
+  #check-btn {
+    background-color: #429e9d;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+  }
+  

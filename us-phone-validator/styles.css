@@ -1,0 +1,95 @@
+body {
+    background-color: #9A99DB;
+    color: white;
+    font-family: calibri;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .phone-outter {
+    position: relative;
+    background-color: white;
+    width: 250px;
+    height: 460px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 15px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .camera {
+    border: 1px solid grey;
+    border-radius: 100px;
+    height: 7.5px;
+    width: 7px;
+    background-color: grey;
+  }
+  
+  .phone-inner {
+    position: relative;
+    background: linear-gradient(0deg, rgba(209,125,202,0.6055672268907564) 16%, rgba(45,210,253,0.7036064425770308) 100%); 
+    width: 230px;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  
+  .buttons {
+    cursor: pointer;
+    width: 113px;
+    color: white;
+    text-align: center;
+    background-color: #E8F0FE;
+    color:#676a70;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: block inline;
+    align-items: center;
+    position: relative;
+    top: 343px;
+    margin: auto;
+  
+  }
+  
+  #user-input {
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    margin: auto;
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  #user-input::placeholder {
+    color:#676a70;
+  }
+  
+  #results-div {
+    border: none;
+    border-radius: 15px;
+    padding: 3px;
+    margin: auto;
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    margin-top: 50px;
+    text-align: center;
+  }
